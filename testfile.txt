@@ -1,0 +1,377 @@
+
+<!d>
+         <meta charset="utf-8">
+	          <meta name="viewport" content="width=device-width",initial-scale=1.0">
+		           <title> Bootstrap </title>
+			            <link href="css/bootstrap.min.css" rel="stylesheet">
+				              <link rel="stylesheet" type="text/css" href="lmsUpdate.css">
+					      
+					      <script language="javascript" type="text/javascript">
+					      
+					      
+					          
+						  
+						  
+						  
+						  
+						  </script>
+						  
+						  
+						  </head>
+						  <body>
+						  
+						  
+						  
+						  <div id="container">
+						  
+						  <div id="header"> 
+						           <div class="logo"> <a href="#"><img width="120" height="110" src="nsbm.jpg"/></a> </div>
+							            <h2><font font color="#c3c7d0"> National School of Business Management(NSBM) </font></h2>
+								             <h1> <font font color="#c3c7d0">Learning Management System </font></h1>
+									              <p> You are not logged in(<a href="#">Login</a>) </p>
+										      </div>
+										      
+										      <div id="middle">
+										      </div>
+										      
+										      <div class="sidebar">
+										                     <ul id="nav">
+												                         <li><a href="#">About Us</a></li>
+															                     <li><a href="#">Services</a></li>
+																	                         <li><a href="#">Solutions</a></li>
+																				                     <li><a href="#">Support</a></li>
+																						                     </ul>
+																								     </div>
+																								     
+																								      <div class="content">
+																								                
+																										          <h3> Type of the Course </h3>
+																											            <ul id="content_data1">
+																												                        <li class="a"><a href="#" >SCHOOL OF COMPUTING</a></li>
+																															                    <li class="b"><a href="#" >SCHOOL OF MANAGEMENT</a></li>
+																																	                        <li class="c"><a href="#" >SCHOOL OF ENGINEERING</a></li>
+																																				
+																																				           </ul>         
+																																					                       
+																																							                  
+																																									                      <form id="formSearch" action="" method="get">
+																																											                                    <div class="writeform">Course Search<input type="text" name="username" maxlength="40" value="" size="40"   /> 
+																																															                                  </div>
+																																																			                      </form>
+																																																					                 
+																																																							 
+																																																							  </div>          
+																																																							  
+																																																							            
+																																																								              
+																																																									       <div class="left">
+																																																									                 <div id="box1">
+																																																											                <div class="box-top1"> Main Menu   </div>
+																																																													               <div class="box-panel1">
+																																																														                            <ul id="content_data2">
+																																																																	                              <li class="d"><a href="#" >NSBM Reseach Publications <span class="f"><img src="keyboard-buttons-or-visualization-button-of-nine-squares.png"> </span></a></li>
+																																																																				                                
+																																																																								                          <li class="d"><a href="#" >NSBM Quarterly news <span class="f"><img src="graduate.png"> </span></a></li>
+																																																																											                            
+																																																																														                              <li class="d"><a href="#" >Leaning management System <span class="f"><img src="pencil.png"> </span><br/> About us</a></li>
+																																																																																	                                
+																																																																																					                          <li class="d"><a href="#" >Student Handbook <span class="f"><img src="notebook.png"> </span></a></li>
+																																																																																								                            
+																																																																																											                              <li class="d"><a href="#" >Award Hanbook <span class="f"><img src="trophy.png"> </span></a></li>
+																																																																																														                                
+																																																																																																		                          <li class="d"><a href="#" >Regulations <span class="f"><img src="diploma.png"> </span></a></li>
+																																																																																																					                            
+																																																																																																								                              <li class="d"><a href="#" >Examination Time Table <span class="f"><img src="language.png"> </span></a></li>
+																																																																																																											                                
+																																																																																																															                          <li class="d"><a href="#" >Contact us <span class="f"><img src="atom.png"> </span></a></li>
+																																																																																																																		                            
+																																																																																																																					                              <li class="d"><a href="#" >Library Catalog <span class="f"><img src="earth-globe.png"> </span></a></li>
+																																																																																																																								                                
+																																																																																																																												                          <li class="d"><a href="#" >Plymouth DLE <span class="f"><img src="logout.png"> </span></a></li>
+																																																																																																																															                      
+																																																																																																																																	                          </ul>
+																																																																																																																																				                 </div>
+																																																																																																																																						           </div>
+																																																																																																																																							   
+																																																																																																																																							   
+																																																																																																																																							                    
+																																																																																																																																									    
+																																																																																																																																									    </div>
+																																																																																																																																									    
+																																																																																																																																									    
+																																																																																																																																									    
+																																																																																																																																									    <div class="left-bottom">
+																																																																																																																																									              <div id="box3">
+																																																																																																																																										                     <div class="box-top3"> Login   </div>
+																																																																																																																																												                    <div class="box-panel3">
+																																																																																																																																														                         
+																																																																																																																																																	                </div>
+																																																																																																																																																			          </div>
+																																																																																																																																																				  
+																																																																																																																																																				  </div>
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  
+																																																																																																																																																				  <div class="right">
+																																																																																																																																																				            <div id="box2">
+																																																																																																																																																					                   <div class="box-top2"> Recent Activity   </div>
+																																																																																																																																																							                  <div class="box-panel2">
+																																																																																																																																																									                       <ul id="content_activity">
+																																																																																																																																																											                                 <li class="e"><a href="#" >NSBM Reseach Publications</a></li>
+																																																																																																																																																															                           <li class="e"><a href="#" >NSBM Quarterly news</a></li>
+																																																																																																																																																																		                             <li class="e"><a href="#" >Leaning management System <br/> About us</a></li>
+																																																																																																																																																																					                               <li class="e"><a href="#" >Student Handbook</a></li>
+																																																																																																																																																																								                                 
+																																																																																																																																																																												                     </ul>
+																																																																																																																																																																														                    </div>
+																																																																																																																																																																																              </div>
+																																																																																																																																																																																	      
+																																																																																																																																																																																	      </div>
+																																																																																																																																																																																	      
+																																																																																																																																																																																	      
+																																																																																																																																																																																	      <div id="footer1">
+																																																																																																																																																																																	          
+																																																																																																																																																																																		  </div>
+																																																																																																																																																																																		  
+																																																																																																																																																																																		  
+																																																																																																																																																																																		  <div id="footer2">
+																																																																																																																																																																																		  
+																																																																																																																																																																																		  <a href="#"><img class="g" src="valid-html5.png"></a>
+																																																																																																																																																																																		  <a href="#"><img class="g" src="valid-css.png"></a>
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      </div>
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      </div>
+																																																																																																																																																																																		      <script src="js/jquery.js"></script>
+																																																																																																																																																																																		      <script src="js/bootstrap.min.js"> </script>
+																																																																																																																																																																																		      </body>
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      
+																																																																																																																																																																																		      </html>
+																																																																																																																																																																																		      doctype html>
+		<html>
+    <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width",initial-scale=1.0">
+         <title> Bootstrap </title>
+         <link href="css/bootstrap.min.css" rel="stylesheet">
+          <link rel="stylesheet" type="text/css" href="lmsUpdate.css">
+
+<script language="javascript" type="text/javascript">
+
+
+    
+
+
+
+
+</script>
+
+
+</head>
+<body>
+
+
+
+<div id="container">
+
+<div id="header"> 
+         <div class="logo"> <a href="#"><img width="120" height="110" src="nsbm.jpg"/></a> </div>
+         <h2><font font color="#c3c7d0"> National School of Business Management(NSBM) </font></h2>
+         <h1> <font font color="#c3c7d0">Learning Management System </font></h1>
+         <p> You are not logged in(<a href="#">Login</a>) </p>
+</div>
+
+<div id="middle">
+</div>
+
+<div class="sidebar">
+               <ul id="nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+</div>
+
+ <div class="content">
+          
+          <h3> Type of the Course </h3>
+          <ul id="content_data1">
+                    <li class="a"><a href="#" >SCHOOL OF COMPUTING</a></li>
+                    <li class="b"><a href="#" >SCHOOL OF MANAGEMENT</a></li>
+                    <li class="c"><a href="#" >SCHOOL OF ENGINEERING</a></li>
+
+           </ul>         
+                    
+           
+                    <form id="formSearch" action="" method="get">
+                              <div class="writeform">Course Search<input type="text" name="username" maxlength="40" value="" size="40"   /> 
+                              </div>
+                    </form>
+           
+
+ </div>          
+
+          
+          
+ <div class="left">
+          <div id="box1">
+               <div class="box-top1"> Main Menu   </div>
+               <div class="box-panel1">
+                     <ul id="content_data2">
+                          <li class="d"><a href="#" >NSBM Reseach Publications <span class="f"><img src="keyboard-buttons-or-visualization-button-of-nine-squares.png"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >NSBM Quarterly news <span class="f"><img src="graduate.png"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Leaning management System <span class="f"><img src="pencil.png"> </span><br/> About us</a></li>
+                          
+                          <li class="d"><a href="#" >Student Handbook <span class="f"><img src="notebook.png"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Award Hanbook <span class="f"><img src="trophy.png"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Regulations <span class="f"><img src="diploma.png"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Examination Time Table <span class="f"><img src="language.png"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Contact us <span class="f"><img src="atom.png"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Library Catalog <span class="f"><img src="earth-globe.png"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Plymouth DLE <span class="f"><img src="logout.png"> </span></a></li>
+                    
+                    </ul>
+               </div>
+          </div>
+
+
+                 
+
+</div>
+
+
+
+<div class="left-bottom">
+          <div id="box3">
+               <div class="box-top3"> Login   </div>
+               <div class="box-panel3">
+                     
+               </div>
+          </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="right">
+          <div id="box2">
+               <div class="box-top2"> Recent Activity   </div>
+               <div class="box-panel2">
+                     <ul id="content_activity">
+                          <li class="e"><a href="#" >NSBM Reseach Publications</a></li>
+                          <li class="e"><a href="#" >NSBM Quarterly news</a></li>
+                          <li class="e"><a href="#" >Leaning management System <br/> About us</a></li>
+                          <li class="e"><a href="#" >Student Handbook</a></li>
+                          
+                    </ul>
+               </div>
+          </div>
+
+</div>
+
+
+<div id="footer1">
+    
+</div>
+
+
+<div id="footer2">
+
+<a href="#"><img class="g" src="valid-html5.png"></a>
+<a href="#"><img class="g" src="valid-css.png"></a>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"> </script>
+</body>
+
+
+</html>
