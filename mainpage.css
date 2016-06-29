@@ -1,0 +1,580 @@
+n: 0px;
+	padding:0px;
+		box-sizing: border-box;
+		}
+
+		body{
+			font-family: 'Open Sans';
+			}
+
+			a{
+
+				text-decoration: none;
+				}
+
+
+				#container{
+					
+						width:1350px;
+							height: 1500px;
+								background-color:#dcdbf5;
+									margin:0px auto;
+									    background-image: url("solid-dark-blue-desktop-background-wallpapers.jpg");
+									    	
+										}
+
+
+										#header{
+											width: 1350px;
+												height: 110px;
+													background-color: #564eff;
+
+														margin: 0px auto;
+															border:2px ridge #000252;
+																border-radius: 7px;
+																	padding-bottom:2px;
+																		position:relative;
+																			background-image: url("solid-dark-blue-desktop-background-wallpapers.jpg");
+
+																			}
+
+																			#header h2{
+																				position: absolute;
+																					top: 0px;
+																						left:120px;
+
+																							
+																								
+																								}
+
+																								#header h1{
+																									position: absolute;
+																										top: 35px;
+																											left:400px;
+																												font-family: "Times new roman";
+																													font-size: 2.4em;
+																														
+																														}
+
+																														.logo{
+																															margin:0px 0px 0px 0px;
+																																
+
+																																}
+
+																																#header p{
+																																	position: absolute;
+																																		top: 5px;
+																																			left:1180px;
+																																				color:white;
+																																					font-size: 0.85em;
+																																					}
+
+																																					#header p a{
+																																					     color:red;
+																																					     }
+
+
+
+																																					     #middle{
+																																					     	width:1000px;
+																																							height:232px;
+																																								margin-left:240px;
+
+																																								    background-image: url("banner-elearning.jpg");
+																																								    	background-color:#4548c9;
+																																										border:2px ridge #000252;
+																																											border-radius: 7px;
+																																												border-top: 3px;
+																																													float:right;
+																																													}
+
+																																													.sub-arrow{
+																																													            float:left;
+																																														                margin-right: 20px;
+																																																}
+
+																																																.sidebar{
+																																																	width:350px;
+																																																		height: 235;
+																																																			display:block;
+																																																				/*background-color: #00033c;*/
+																																																					background-image: linear-gradient(to bottom,#04004c, #4c4895);
+																																																					    float:left;
+																																																					    	position: absolute;
+																																																							top: 110px;
+																																																								left:0px;
+																																																									
+																																																									}
+
+
+
+
+																																																									ul#nav li{
+																																																									    list-style:none;
+
+																																																									    }
+
+
+																																																									    ul#nav li a{
+																																																									         color:#ccc;
+																																																										      display:block;
+																																																										           padding:17px;
+																																																											        font-size: 1.2em;
+																																																												     border-bottom:1px solid #0A0A0A;
+																																																												          
+																																																													  }
+
+
+																																																													  ul#nav li a:hover{
+
+																																																													      background-color: #030303;
+																																																													          color: #fff;
+																																																														      padding-left: 20px;
+
+																																																														      }
+
+																																																														      ul#nav li a.selected{                    /*element1kta liyanakota # tag1ta kalin element1 danwa!!!!!! */
+
+																																																														          background-color: #030303;
+																																																															      color: #fff;
+																																																															         
+																																																																 }
+
+
+																																																																 .content{
+																																																																 	width:700px;
+																																																																		height:518px;
+																																																																			float: left;
+																																																																				margin-left: 0px;
+																																																																					padding-left: 5px;
+																																																																						padding-right: 5px;
+																																																																							background-color: #dcdbf5;
+																																																																								border:2px ridge #000252;
+																																																																									border-radius:5px;
+																																																																										position: absolute;
+																																																																											top: 340px;
+																																																																												left:350px;
+																																																																													display:block;
+																																																																														background-image: url("33003988-Abstract-blue-background-with-faintly-visible-vertical-stripes-blurry-lights-stars-and-snow-flakes-L-Stock-Vector.jpg"); 
+																																																																														    
+																																																																														    	
+
+																																																																															}
+
+																																																																															.content h3{
+																																																																															    color:#023c69;
+																																																																															        font-size:1.4em;
+																																																																																    font-family: cursive;
+																																																																																        margin-top: 10px;
+																																																																																	    padding-left: 5px;
+																																																																																	        padding-top: 2px;
+
+																																																																																		}
+
+
+																																																																																		form#formsearch{
+																																																																																			color:blue;
+																																																																																			}
+
+																																																																																			ul#content_data1 .a{
+																																																																																			    width: 200px;
+																																																																																			        height: 250px;
+																																																																																				    text-align: center;
+																																																																																				        float: left;
+																																																																																					    margin-right: 10px;
+																																																																																					        margin-left: 20px;
+																																																																																						    background-image: url("pcs.jpg");
+
+
+																																																																																						    }
+
+																																																																																						    ul#content_data1 .b{
+																																																																																						        width: 200px;
+																																																																																							    height: 250px;
+																																																																																							        text-align: center;
+																																																																																								    float: left;
+																																																																																								        margin-right: 10px;
+																																																																																									    background-image: url("Small-Business-Marketing.jpeg");
+
+																																																																																									    }
+
+																																																																																									    ul#content_data1 .c{
+																																																																																									        width: 200px;
+																																																																																										    height: 250px;
+																																																																																										        text-align: center;
+																																																																																											    float: left;
+																																																																																											        margin-right: 10px;
+																																																																																												    background-image: url("Scholarships-for-Engineering-Students.jpg");
+
+																																																																																												    }
+
+
+
+
+
+																																																																																												    ul#content_data1 .a,.b,.c{
+																																																																																												           list-style-type:Upper-alpha;
+																																																																																													          font-weight: bold;
+																																																																																														         border:2px solid blue;
+																																																																																															        margin-bottom: 10px;
+
+
+																																																																																																}
+
+																																																																																																ul#content_data1 .a{
+																																																																																																	
+																																																																																																		margin-top: 10px;
+																																																																																																			margin-bottom: 10px;
+																																																																																																				padding-top:1px; 
+																																																																																																					padding-bottom: 5px;
+																																																																																																						border-radius: 5px;
+
+																																																																																																							
+																																																																																																							}
+
+																																																																																																							ul#content_data1 .b{
+																																																																																																								
+																																																																																																									margin-top: 10px;
+																																																																																																										margin-bottom: 10px; 
+																																																																																																											padding-top:1px; 
+																																																																																																												padding-bottom: 5px;
+																																																																																																													border-radius: 5px; 
+																																																																																																														
+																																																																																																														}
+
+																																																																																																														ul#content_data1 .c{
+																																																																																																															
+																																																																																																																margin-top: 10px;
+																																																																																																																	margin-bottom: 10px; 
+																																																																																																																		padding-top:1px; 
+																																																																																																																			padding-bottom: 5px;
+																																																																																																																				border-radius: 5px;
+																																																																																																																					
+																																																																																																																					}
+
+
+																																																																																																																					ul#content_data1 li{
+																																																																																																																						list-style:none;
+																																																																																																																							display: block;
+																																																																																																																							}
+
+
+
+																																																																																																																							ul#content_data1 li a{ 
+																																																																																																																							       
+																																																																																																																							              color: #31007b;
+																																																																																																																								             display:block;
+																																																																																																																									            padding:17px;
+																																																																																																																										           margin-top: 0px;
+																																																																																																																											          transition: all 0.3s linear;
+																																																																																																																												         
+
+																																																																																																																													 }
+
+
+																																																																																																																													 ul#content_data1 a:hover{
+
+																																																																																																																													     
+																																																																																																																													         color: #e8e0fe;
+																																																																																																																														     background-color: #499fff;
+																																																																																																																														         font-size: 1.4em;
+																																																																																																																															     text-shadow: 0px 0px 3px #6f3ef9;
+
+
+																																																																																																																															         /*background-image: url("white-background-wallpaper-for-website-521296263.jpg");*/
+																																																																																																																																     
+																																																																																																																																         
+																																																																																																																																	     
+																																																																																																																																	      }
+
+																																																																																																																																	      ul#content_data1 .a a:visited{
+
+																																																																																																																																	          color: #d60619;
+																																																																																																																																		   }
+
+																																																																																																																																		   ul#content_data1 .b a:visited{
+
+																																																																																																																																		       color: #d60619;
+																																																																																																																																		        }
+
+																																																																																																																																			ul#content_data1 .c a:visited{
+
+																																																																																																																																			    color: #d60619;
+																																																																																																																																			     }
+
+
+
+
+
+
+
+
+																																																																																																																																			     .left{
+																																																																																																																																			     	width:400px;
+																																																																																																																																					height:520px;
+																																																																																																																																						float: left;
+																																																																																																																																							position: absolute;
+																																																																																																																																								top:340px;
+																																																																																																																																									left:0px;
+																																																																																																																																										}
+
+
+
+																																																																																																																																										div#box1{
+
+																																																																																																																																											margin-top: 0px;
+																																																																																																																																											}
+
+																																																																																																																																											div#box1 .box-top1{
+																																																																																																																																												color:#fff;
+																																																																																																																																													text-shadow: 0px 0px 1px #ddd;
+																																																																																																																																														background-color: #1421d2;
+																																																																																																																																															background-image: linear-gradient(to bottom,#010142, #7777fe); 
+																																																																																																																																															    padding:8px;
+																																																																																																																																															        font-size: 1.25em;
+																																																																																																																																																    width:350px;
+																																																																																																																																																        border-top-left-radius:20px;
+																																																																																																																																																	    border-top-right-radius:20px;
+																																																																																																																																																	        border:2px inset #524af9;
+																																																																																																																																																		    margin-bottom: 2px;
+
+																																																																																																																																																		    }
+
+
+
+																																																																																																																																																		    .left-bottom{
+																																																																																																																																																		    	width:350px;
+																																																																																																																																																				height:350px;
+																																																																																																																																																					background-color: white;
+																																																																																																																																																					    position: absolute;
+																																																																																																																																																					    	top:855px;
+																																																																																																																																																						}
+
+																																																																																																																																																						div#box3{
+
+																																																																																																																																																							margin-top: 2px;
+																																																																																																																																																							}
+
+																																																																																																																																																							div#box3 .box-top3{
+																																																																																																																																																								color:#fff;
+																																																																																																																																																									text-shadow: 0px 0px 1px #ddd;
+																																																																																																																																																										background-color: #1421d2;
+																																																																																																																																																											background-image: linear-gradient(to bottom,#010142, #7777fe); 
+																																																																																																																																																											    padding:9px;
+																																																																																																																																																											        margin-left: 2px;
+																																																																																																																																																												    font-size: 1.25em;
+																																																																																																																																																												        width:350px;
+																																																																																																																																																													    border-top-left-radius:20px;
+																																																																																																																																																													        border-top-right-radius:20px;
+																																																																																																																																																														    border:2px inset #524af9;
+																																																																																																																																																														        margin-bottom: 2px;
+																																																																																																																																																															}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+																																																																																																																																																															ul#content_data2{
+																																																																																																																																																																width:348px;
+																																																																																																																																																																	margin-left: 3px;
+																																																																																																																																																																	    display: block;
+
+																																																																																																																																																																	    }
+
+
+																																																																																																																																																																	    ul#content_data2 .f{
+																																																																																																																																																																	    	float: left;
+																																																																																																																																																																			padding-right: 10px;
+
+																																																																																																																																																																			}
+
+
+
+
+																																																																																																																																																																			ul#content_data2 .d{
+																																																																																																																																																																				border:1px solid #245a07;
+																																																																																																																																																																					margin-top: 1px;
+																																																																																																																																																																					    background-color: #e6fcfd;
+																																																																																																																																																																					    	font-size: 1.2em;
+
+																																																																																																																																																																						}
+
+
+																																																																																																																																																																						ul#content_data2 .d a{
+																																																																																																																																																																						     color:#3b8015;
+																																																																																																																																																																						          display:block;
+																																																																																																																																																																							       padding:10px;
+																																																																																																																																																																							            font-size: 1.0em;
+																																																																																																																																																																								       
+																																																																																																																																																																								            
+																																																																																																																																																																									    }
+
+
+
+
+
+																																																																																																																																																																									    ul#content_data2 li a:hover{
+																																																																																																																																																																									         color: #5aff00;
+																																																																																																																																																																										      background-color: #71b14e;
+																																																																																																																																																																										            
+
+
+																																																																																																																																																																											    }
+
+
+																																																																																																																																																																											    ul#content_activity li{
+																																																																																																																																																																											    	list-style: none;
+																																																																																																																																																																												}
+
+
+
+
+
+
+
+																																																																																																																																																																												.right{
+																																																																																																																																																																													width:250px;
+																																																																																																																																																																														height:510px;
+
+																																																																																																																																																																															
+																																																																																																																																																																																position: absolute;
+																																																																																																																																																																																	top:340px;
+																																																																																																																																																																																		right:53px;
+
+																																																																																																																																																																																			}
+
+
+
+																																																																																																																																																																																			div#box2{
+
+																																																																																																																																																																																				margin-top: 2px;
+																																																																																																																																																																																				}
+
+																																																																																																																																																																																				div#box2 .box-top2{
+																																																																																																																																																																																					color:#fff;
+																																																																																																																																																																																						text-shadow: 0px 0px 1px #ddd;
+																																																																																																																																																																																							background-color: #1421d2;
+																																																																																																																																																																																								background-image: linear-gradient(to bottom,#010142, #7777fe); 
+																																																																																																																																																																																								    padding:9px;
+																																																																																																																																																																																								        margin-left: 2px;
+																																																																																																																																																																																									    font-size: 1.25em;
+																																																																																																																																																																																									        width:300px;
+																																																																																																																																																																																										    border-top-left-radius:20px;
+																																																																																																																																																																																										        border-top-right-radius:20px;
+																																																																																																																																																																																											    border:2px inset #524af9;
+																																																																																																																																																																																											        margin-bottom: 2px;
+																																																																																																																																																																																												}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+																																																																																																																																																																																												ul#content_activity{
+																																																																																																																																																																																													width:300px;
+																																																																																																																																																																																														margin-left: 3px;
+																																																																																																																																																																																															display: block;
+
+																																																																																																																																																																																															}
+
+																																																																																																																																																																																															ul#content_activity .e{
+																																																																																																																																																																																																border:1px solid #245a07;
+																																																																																																																																																																																																	margin-top: 1px;
+																																																																																																																																																																																																	    background-color: #e6fcfd;
+																																																																																																																																																																																																	    	font-size: 1.2em;
+
+																																																																																																																																																																																																		}
+
+
+																																																																																																																																																																																																		ul#content_activity .e a{
+																																																																																																																																																																																																		     color:#3b8015;
+																																																																																																																																																																																																		          display:block;
+																																																																																																																																																																																																			       padding:10px;
+																																																																																																																																																																																																			            font-size: 1.0em;
+																																																																																																																																																																																																				       
+																																																																																																																																																																																																				            
+																																																																																																																																																																																																					    }
+
+
+
+
+
+																																																																																																																																																																																																					    ul#content_activity li a:hover{
+																																																																																																																																																																																																					         color: #5aff00;
+																																																																																																																																																																																																						      background-color: #71b14e;
+																																																																																																																																																																																																						            
+																																																																																																																																																																																																							    }
+
+
+																																																																																																																																																																																																							    #footer1{
+																																																																																																																																																																																																							    	width:1350px;
+																																																																																																																																																																																																									height: 100px;
+																																																																																																																																																																																																										position: absolute;
+																																																																																																																																																																																																											top:1260px;
+																																																																																																																																																																																																											    clear:both;
+																																																																																																																																																																																																											    	background-color:#a3a2d2;
+																																																																																																																																																																																																													border:2px outset #5cc7ff;
+																																																																																																																																																																																																													}
+
+
+																																																																																																																																																																																																													#footer2{
+																																																																																																																																																																																																														width:1350px;
+																																																																																																																																																																																																															height: 48px;
+																																																																																																																																																																																																																position: absolute;
+																																																																																																																																																																																																																	top:1370px;
+																																																																																																																																																																																																																	    clear:both;
+																																																																																																																																																																																																																	    	background-color:#a3a2d2;
+																																																																																																																																																																																																																			border:2px outset #5cc7ff;
+																																																																																																																																																																																																																			}
+
+
+																																																																																																																																																																																																																			#footer2 .g{
+																																																																																																																																																																																																																			    padding-right: 5px;
+																																																																																																																																																																																																																			    	float:left;
+																																																																																																																																																																																																																				}
+
+
+
