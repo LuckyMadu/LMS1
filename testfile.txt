@@ -27,7 +27,7 @@
 						  <div id="header"> 
 						           <div class="logo"> <a href="#"><img width="120" height="110" src="nsbm.jpg"/></a> </div>
 							            <h2><font font color="#c3c7d0"> National School of Business Management(NSBM) </font></h2>
-								             <h1> <font font color="#c3c7d0">Learning Management System </font></h1>
+								             <h1> <font font color="#c3c7d0">Learning Management System! </font></h1>
 									              <p> You are not logged in(<a href="#">Login</a>) </p>
 										      </div>
 										      
