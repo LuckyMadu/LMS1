@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+    <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width",initial-scale=1.0">
+         <title> Bootstrap </title>
+         <link href="css/bootstrap.min.css" rel="stylesheet">
+         
+          <link rel="stylesheet" type="text/css" href="lmsUpdate5.css">
+
+<script type="text/javascript">
+var imagecount = 1;
+var total = 5;
+
+function slide(x){
+  var Image = document.getElementById('img');
+  imagecount= imagecount + x;
+  if(imagecount > total){
+    imagecount =1;
+  }
+
+  if(imagecount < 1){
+    imagecount=total;
+  }
+  Image.src = "Image/img"+ imagecount + ".jpg";
+} 
+
+window.setInterval(function slideA(x){
+  var Image = document.getElementById('img');
+  imagecount= imagecount + 1;
+  if(imagecount > total){
+    imagecount =1;
+  }
+
+  if(imagecount < 1){
+    imagecount=total;
+  }
+  Image.src = "Image/img"+ imagecount + ".jpg";
+},5000);
+
+</script>
+<script type="text/javascript">
+function valid()
+if(document.form1.cbox.checked)
+  {
+  alert("Do you need to remember the password!");
+  }
+
+</script>
+
+
+</head>
+
+
+<body onLoad="slideA()">
+
+
+
+<div id="container">
+
+<div id="header"> 
+         <div class="logo"> <a href="#"><img width="150" height="108" src="head.gif" alt="nsbm_logo"/></a> </div>
+         <h2><marquee>National School of Business Management(NSBM) </marquee></h2> 
+         <h1> Learning Management System </h1>
+         <p> You are not logged in(<a href="#mission">Login</a>) </p>
+</div>
+
+<div id="middle">
+    <a href="#"><img src="Image/img1.jpg" class="img-responsive" id="img" alt="slide_images"/> </a>
+    <div id="left_holder"> <img onClick="slide(-1)" class="middle-left" src="Image/left-chevron.png" alt="leftArrow"/> </div>
+    <div id="right_holder"> <img onClick="slide(1)" class="middle-right" src="Image/right-chevron.png" alt="rightArrow"/> </div>
+
+</div>
+
+<div class="sidebar">
+               <ul id="nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a> </li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+</div>
+
+ <div class="content">
+          
+          <h3> Type of the Course </h3>
+          <ul id="content_data1">
+                    <li class="a"><a href="#" >SCHOOL OF COMPUTING</a></li>
+                    <li class="b"><a href="#" >SCHOOL OF MANAGEMENT</a></li>
+                    <li class="c"><a href="#" >SCHOOL OF ENGINEERING</a></li>
+
+           </ul>         
+                    
+           
+            
+                
+                <form name="form">
+                         
+                         <div class="form-group">
+                                    <label class="search">Course Search</label>
+                                    <input type="text" class="form-control2" id="Username" placeholder="Enter here">
+                        </div>
+                
+               </form>
+              
+
+ </div>          
+
+          
+          
+ <div class="left">
+          <div id="box1">
+               <div class="box-top1"> Main Menu   </div>
+               <div class="box-panel1">
+                     <ul id="content_data2">
+                          <li class="d"><a href="#" >NSBM Reseach Publications <span class="f"><img src="icon_arrow.gif" alt="research_Image"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >NSBM Quarterly news <span class="f"><img src="graduate.png" alt="news_Image"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Leaning management System <span class="f"><img src="pencil.png" alt="lms_Image"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Student Handbook <span class="f"><img src="notebook.png" alt="handbook_Image"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Award Hanbook <span class="f"><img src="trophy.png" alt="trophy_Image"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Regulations <span class="f"><img src="diploma.png" alt="rules_Image"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Examination Time Table <span class="f"><img src="language.png" alt="timeTable_Image"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Contact us <span class="f"><img src="atom.png" alt="contact_Image"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Library Catalog <span class="f"><img src="earth-globe.png" alt="book_Image"> </span></a></li>
+                          
+                          <li class="d"><a href="#" >Plymouth DLE <span class="f"><img src="logout.png" alt="ply_Image"> </span></a></li>
+                    
+                    </ul>
+               </div>
+          </div>
+
+
+                 
+
+</div>
+
+
+
+<div class="left-bottom">
+<div id= "mission">      
+      <h2>Login</h2>
+      <img src="animated-key-image-0032.gif" class="img-circle" width="150" height="100" alt="lock"> 
+                <form name="form1" method="POST" action="http://localhost/login.php">
+                         <div class="form-group">
+                                    Username:
+                                    <input type="text" class="form-control1" name="username" placeholder="Enter username">
+                        </div>
+                        
+                        <div class="form-group">
+                                    Password:
+                                    <input type="password" class="form-control" name="password" placeholder="Enter password">
+                       </div>
+                       
+                       <div class="checkbox">
+                                    <input type="checkbox" name="cbox">Remember me
+                       </div>
+                      
+                       <div class="but"> <button type="submit" onclick="valid();" class="btn btn-default">Login</button> </div>
+                </form>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="right">
+          <div id="box2">
+               <div class="box-top2"> Recent Activity   </div>
+               <div class="box-panel2">
+                     <ul id="content_activity">
+                          <li class="e"><a href="#" >NSBM Reseach Publications</a></li>
+                          <li class="e"><a href="#" >NSBM Quarterly news</a></li>
+                          <li class="e"><a href="#" >Leaning management System <br/> About us</a></li>
+                          <li class="e"><a href="#" >Student Handbook</a></li>
+                          
+                    </ul>
+               </div>
+          </div>
+
+</div>
+
+
+<div id="footer1">
+    <h2> Contact Us</h2>
+    <div class="con"> 
+    <pre>                           
+         309, High Level Road
+         Colombo 05
+         00500
+         Sri Lanka
+         Tel:<span> <a href="#">+94 (11) 544 5000 </a> </span>
+         Fax:<span> <a href="#">+94 (11) 544 5009 </a> </span>
+         Email: info@nsbm.lk
+    </pre>
+    </div>
+
+    <div id="head">
+    <h2> Find Us On </h2>
+    </div>
+    <div class="con2">
+    <ul>
+       <li>
+                <a href="http://www.facebook.com/nsbm.lk" target="_blank"><span class="url"><img width="50" height="50" src="Document.gif" alt="fb"></span> Facebook</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/NSBM_SriLanka" target="_blank"><span class="url"><img  width="50" height="50" src="twitter_icon.png" alt="twitter"></span> Twitter</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/profile/view?id=434204105&trk=nav_responsive_tab_profile_pic" target="_blank"><span class="url"><img width="50" height="50" src="image_preview.png" alt="linkedIn"></span> LinkedIn</a>
+            </li>
+            <li>
+                <a href="http://www.youtube.com/channel/UCHsodhRyiuri2jD7H7nfsRg/feed" target="_blank"><span class="url"><img  width="50" height="50" src="youtube_icon.png" alt="youtube"></span> YouTube</a>
+            </li>
+        </ul>
+
+   
+    </div>
+
+
+
+
+
+</div>
+
+
+<div id="footer2">
+
+<a href="https://validator.w3.org/nu/#textarea"><img class="g" src="valid-html5.png" alt="validHTML"></a>
+<a href="http://jigsaw.w3.org/css-validator/validator"><img class="g" src="valid-css.png" alt="validCSS"></a>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"> </script>
+</body>
+
+
+</html>
